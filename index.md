@@ -1722,22 +1722,6 @@ DIV.Scroll {
       </td>
       <td background="images/Side_R.gif" height="198"><img src="images/Side_R.gif" width="3" height="3"></td>
   </tr>
-  <tr>
-    <td><img src="images/Bottom_L.gif" width="3" height="3"></td>
-    <td background="images/Bottom_M.gif"><img src="images/Bottom_M.gif" width="3" height="3"></td>
-    <td><img src="images/Bottom_R.gif" width="3" height="3"></td>
-  </tr>
-    <tr  align="center" background="images/eb_bot.jpg"> 
-      <td colspan="3" >
-        <table width="100%" border="0" cellspacing="1" cellpadding="1" background="images/eb_bot.jpg">
-          <tr align="center"> 
-            <td> <font face="Arial, Helvetica, sans-serif" size="1" color="#FFFFB7">© 
-              2004 Wizards of the Coast, Inc., a division of Hasbro, Inc. All 
-              rights reserved.</font></td>
-          </tr>
-        </table>
-      </td> 
-</tr>
 
 
 </table>
