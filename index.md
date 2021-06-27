@@ -1,8 +1,8 @@
 <html>
-<head>
-<title>Eberron Cosmology / Calendar Tool</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<SCRIPT LANGUAGE="JavaScript1.2">
+	<head>
+		<title>Cosmology and Calendar</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<script language="JavaScript1.2">
 <!--
 
 var NS = (document.layers) ? 1 : 0;
@@ -1125,7 +1125,7 @@ function showPart1(){
 		pagedisp += "</tr>";
 
 		pagedisp += "<tr> ";
-		pagedisp += "<td align=\"center\" width=\"100%\" colspan=\"2\"><img src=https://user-images.githubusercontent.com/39757078/123529159-fb125880-d6aa-11eb-990b-459f8103fd0b.png></td>";
+		pagedisp += "<td align=\"center\" width=\"100%\" colspan=\"2\"><img src=\"images/accept.jpg\"></td>";
 		pagedisp += "</td>";
 		pagedisp += "</tr>";
 		
@@ -1609,158 +1609,5 @@ function display(id, str) {
 
 //-->
 </script>
-</head>
-<style type="text/css">
-<!--
-INPUT {
-background-color: #fdfbee;
-color: black;
-border: #000000 solid 1px;
-font-family: arial, verdana, ms sans serif;
-font-weight: bold;
-font-size: 12px;
-text-align: center;
-} 
-
-TEXTAREA {
-background-color: #fdfbee;
-border: black 1px solid;
-color: black;
-font-family: arial, verdana, ms sans serif;
-font-size: 12px;
-font-weight: normal
-} 
-
-SELECT {
-background-color: #fdfbee;
-border: black 1px solid;
-color: black;
-font-family: arial, verdana, ms sans serif;
-font-size: 12px;
-font-weight: normal
-} 
-
-.radioStyle {
-background-color: #ffffff;
-font-family: verdana;
-border: white 1px solid;
-font-size: 10px;
-color: #ffffff
-}
-
-DIV.Scroll {
-	height: 135px;
-	overflow: auto;
-	width: 246;
-}
-
--->
-</style> 
-
-<body bgcolor="#FFFFFF" background="images/back2.jpg">
-
-<form method="" action="" name="form2">
-
-  <table width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
-    <tr align="center" valign="middle" background="images/eb_top.jpg"> 
-      <td colspan="3" > 
-          
-        <table width="100%" border="0" cellspacing="1" cellpadding="1" background="images/eb_top.jpg">
-          <tr align="center"> 
-            <td> <font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFCC"><b><font color="#FFFFB7">Eberron 
-              Cosmology / Calendar Tool</font></b></font></td>
-            </tr>
-          </table>
-    </td> 
-</tr>
- <tr>
-    <td width="3" height="3"><img src="images/TOP_L.gif" width="3" height="3"></td>
-    <td background="images/TOP_M.gif"><img src="images/TOP_M.gif" width="3" height="3"></td>
-    <td width="3" height="3"><img src="images/TOP_R.gif" width="3" height="3"></td>
-  </tr>
-  <tr>
-      <td background="images/Side_L.gif" height="198"><img src="images/Side_L.gif" width="3" height="3"></td>
-      <td valign="top" height="198"> 
-        <table width="600" border="0" cellspacing="2" cellpadding="2">
-          <tr > 
-            <td colspan="3"> 
-				<img src="images/white.jpg" height="440" width="592" border="0">
-            </td>
-          </tr>
-          <tr> 
-            <td width="200"><table border="0" cellspacing="1" cellpadding="0" bgcolor="#FFFFFF">
-  <tr align="left"> 
-    <td valign="middle" width="21"><img src="images/white.gif" width="5" height="15"><img src="images/remote_x.jpg" width="16" height="16"></td>
-    <td valign="middle" width="36"><font face="Arial, Helvetica, sans-serif" size="1">Remote</font></td>
-    <td valign="middle" width="24"><img src="images/white.gif" width="8" height="15"><img src="images/waxing_x.jpg" width="16" height="16"></td>
-    <td valign="middle" width="31"><font size="1" face="Arial, Helvetica, sans-serif">Waxing</font></td>
-    <td valign="middle" width="24"><img src="images/white.gif" width="8" height="15"><img src="images/coterm_x.jpg" width="16" height="16"></td>
-    <td valign="middle" width="53"><font size="1" face="Arial, Helvetica, sans-serif">Coterminous</font></td>
-    <td valign="middle" width="24"><img src="images/white.gif" width="8" height="15"><img src="images/waning_x.jpg" width="16" height="16"></td>
-    <td valign="middle" width="31"><font face="Arial, Helvetica, sans-serif" size="1">Waning</font></td>
-  </tr>
-</table>
-</td>
-            <td align="center" width="250">
-              <table border="0" cellspacing="0" cellpadding="0" align="right">
-                <tr> 
-                  <td></td>
-                </tr>
-              </table>
-			</td>
-            <td align="center" width="150"> 
-              <select name="calendar" onChange="clickSetCalendar(value)">
-                <option value="1" selected>Galifar</option>
-                <option value="2">Druid</option>
-                <option value="3">Ancient Dwarven</option>
-                <option value="4">Halfling</option>
-                <option value="5">Generic</option>
-              </select>
-            </td>
-          </tr>
-        </table>
-      </td>
-      <td background="images/Side_R.gif" height="198"><img src="images/Side_R.gif" width="3" height="3"></td>
-  </tr>
-
-
-</table>
-  </form>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<div id="pagedisplay1" style="position: absolute; top: 55; left: 17; z-index: 2;"></div>
-<div id="pagedisplay2" style="position: absolute; top: 42; left: 202; z-index: 2;"></div>
-<div id="pagedisplay3" style="position: absolute; top: 42; left: 459; z-index: 2;"></div>
-<div id="pagedisplay4" style="position: absolute; top: 188; left: 17; z-index: 2;"></div>
-<div id="pagedisplay5" style="position: absolute; top: 188; left: 459; z-index: 2;"></div>
-<div id="planedisplay1" style="position: absolute; top: 210; left: 327; z-index: 3;"></div>
-<div id="planedisplay2" style="position: absolute; top: 231; left: 327; z-index: 3;"></div>
-<div id="planedisplay3" style="position: absolute; top: 252; left: 327; z-index: 3;"></div>
-<div id="planedisplay4" style="position: absolute; top: 273; left: 327; z-index: 3;"></div>
-<div id="planedisplay5" style="position: absolute; top: 294; left: 327; z-index: 3;"></div>
-<div id="planedisplay6" style="position: absolute; top: 315; left: 327; z-index: 3;"></div>
-<div id="planedisplay7" style="position: absolute; top: 336; left: 327; z-index: 3;"></div>
-<div id="planedisplay8" style="position: absolute; top: 357; left: 327; z-index: 3;"></div>
-<div id="planedisplay9" style="position: absolute; top: 378; left: 327; z-index: 3;"></div>
-<div id="planedisplay10" style="position: absolute; top: 399; left: 327; z-index: 3;"></div>
-<div id="planedisplay11" style="position: absolute; top: 420; left: 327; z-index: 3;"></div>
-<div id="planedisplay12" style="position: absolute; top: 441; left: 327; z-index: 3;"></div>
-<div id="planedisplay13" style="position: absolute; top: 462; left: 327; z-index: 3;"></div>
-<div id="pagedisplay6" style="position: absolute; top: 492; left: 328; z-index: 3;"></div>
-<div id="speeddisplay" style="position: absolute; top: 495; left: 444; z-index: 3;"></div>
-<div id="speeddisplay2" style="position: absolute; top: 495; left: 315; z-index: 3;"></div>
-<script>
-showPart1();
-showPart2(sText);
-showPart3();
-showPart5();
-showPart6(1);
-movePlanes();
-showPlanes();
-showPart4();
-</script>
-</body>
-</html>
+	</head>
+	</html>
