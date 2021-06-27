@@ -1125,8 +1125,7 @@ function showPart1(){
 		pagedisp += "</tr>";
 
 		pagedisp += "<tr> ";
-		pagedisp += "<td align=\"center\" width=\"100%\" colspan=\"2\"><img src=\"![accept](https://user-images.githubusercontent.com/39757078/123529159-fb125880-d6aa-11eb-990b-459f8103fd0b.png)
-"></td>";
+		pagedisp += "<td align=\"center\" width=\"100%\" colspan=\"2\"><img src=https://user-images.githubusercontent.com/39757078/123529159-fb125880-d6aa-11eb-990b-459f8103fd0b.png></td>";
 		pagedisp += "</td>";
 		pagedisp += "</tr>";
 		
